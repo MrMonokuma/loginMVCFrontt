@@ -1,9 +1,9 @@
 $("#Registrar").click(function(e){
     e.preventDefault();
-    var username=$("#username").val();
+    var username=$("#usr").val();
     var pass=$("#pass").val();
         var obj={
-            username: username,
+            username: usr,
             contra: pass
         };
         registrarUsuario(obj)
